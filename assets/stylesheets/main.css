@@ -135,9 +135,9 @@ table {
 
 body {
   background: #344e41;
-  color: #888;
-  font: 300 16px/22px "Cormorant", "Open Sans", "Helvetica Neue", Helvetica, Arial,
-    sans-serif;
+  color: #777e83;
+  font: 300 16px/22px "Cormorant", "Open Sans", "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
 }
 
 h1,
@@ -166,9 +166,9 @@ h4 {
 }
 
 h5 {
-  color: #a9b2b9;
+  color: #777e83;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 500;
   text-transform: uppercase;
 }
 
@@ -407,7 +407,7 @@ ul.rules {
   cursor: pointer;
   display: inline-block;
   font-weight: 400;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
   margin: 0;
   text-transform: uppercase;
 }
@@ -504,7 +504,8 @@ form {
 input,
 select,
 textarea {
-  font: 300 16px/22px "Cormorant", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 300 16px/22px "Cormorant", "Open Sans", "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
 }
 
 .register-group label {
@@ -542,7 +543,7 @@ textarea {
   border: 0;
   background: #a3b18a;
   padding: 11px 30px;
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .btn-default:hover {
@@ -591,7 +592,7 @@ thead td {
 }
 
 tbody th {
-  color: #a9b2b9;
+  color: #777e83;
   font-size: 14px;
   font-weight: 400;
   padding-top: 22px;
@@ -599,7 +600,7 @@ tbody th {
 }
 
 tbody td {
-  border-top: 1px solid #dfe2e5;
+  border-top: 1px solid #777e83;
   padding-top: 21px;
 }
 
@@ -617,7 +618,7 @@ tbody td:only-of-type {
 }
 
 table a {
-  color: #888;
+  color: #777e83;
 }
 
 table h4 {
@@ -625,5 +626,11 @@ table h4 {
 }
 
 .schedule-offset {
-  color: #a9b2b9;
+  color: #777e83;
 }
+
+/*
+    =====================================
+    Media Queries
+    =====================================
+*/
