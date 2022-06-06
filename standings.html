@@ -8,6 +8,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/aa9390e55a.js" crossorigin="anonymous"></script>
     </head>
     
     <body>
@@ -19,7 +20,10 @@
             </section>
             <h3 class="tagline"><a href="https://seminolelake.net/golf-course/">Seminole Lake Country Club</a></h3>
             <nav class="nav primary-nav">
-                <ul>
+                <button class="my-button" id="my-button">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul id="mynav">
                     <li><a href="index.html">Home</a></li><!--
                  --><li><a href="schedule.html">Schedule</a></li><!--
                  --><li><a href="standings.html">Standings</a></li><!--
@@ -41,28 +45,28 @@
          <!-- Division I -->
             <section class="teaser col-1-2">
                 <a href="divisionI.html">
-                    <img src="assets/images/leaderboards/D1full.avif" alt="Golf tee arranged like the Roman numeral 1" height="289" width="435">
+                    <img src="assets/images/leaderboards/D1full.avif" alt="Golf tee arranged like the Roman numeral 1">
                     <h3>Division I</h3>
                 </a>
             </section><!-- 
                 Division II 
         --><section class="teaser col-1-2">
                 <a href="divisionII.html">
-                    <img src="assets/images/leaderboards/D2full.avif" alt="Golf tee arranged like the Roman numeral 2" height="289" width="435">
+                    <img src="assets/images/leaderboards/D2full.avif" alt="Golf tee arranged like the Roman numeral 2">
                     <h3>Division II</h3>
                 </a>
             </section><!-- 
                 Division III 
         --><section class="teaser col-1-2">
                 <a href="divisionIII.html">
-                    <img src="assets/images/leaderboards/D3full.avif" alt="Golf tee arranged like the Roman numeral 3" height="289" width="435">
+                    <img src="assets/images/leaderboards/D3full.avif" alt="Golf tee arranged like the Roman numeral 3">
                     <h3>Division III</h3>
                 </a>
             </section><!-- 
                 Division IV 
         --><section class="teaser col-1-2">
                 <a href="divisionIV.html">
-                    <img src="assets/images/leaderboards/D4full.avif" alt="Golf tee arranged like the Roman numeral 4" height="289" width="435">
+                    <img src="assets/images/leaderboards/D4full.avif" alt="Golf tee arranged like the Roman numeral 4">
                     <h3>Division IV</h3>
                 </a>
             </section>
@@ -82,5 +86,7 @@
             </ul>
         </nav>
     </footer>
+
+    <script type="text/javascript" src="app.js"></script>
 </body>
 </html>

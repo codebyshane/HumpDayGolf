@@ -1,7 +1,6 @@
-// Calculating round total
+document.querySelector("#my-button").addEventListener("click", showNav);
 
-let frontNineTotalStrokes = [holeOne, holeTwo, holeThree, holeFour, holeFive, holeSix, holeSeven, holeEight, holeNine]
-let backNineTotalStrokes = [holeTen, holeEleven, holeTwelve, holeThirteen, holeFourteen, holeFifteen, holeSixteen, holeSeventeen, holeEighteen]
-
-// Each hole is an object
-
+function showNav() {
+    document.querySelector("#mynav").classList.toggle("show");
+    document.querySelector(".logo").classList.toggle("hideLogo");
+}

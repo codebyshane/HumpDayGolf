@@ -227,7 +227,7 @@ p a {
 .container,
 .grid {
   margin: 0 auto;
-  width: 960px;
+  max-width: 960px;
 }
 
 .container {
@@ -295,10 +295,10 @@ p a {
     =====================================
 */
 
-.row,
+/* .row,
 .row-alt {
-  min-width: 960px;
-}
+  max-width: 960px;
+} */
 
 .row {
   background: #fff;
@@ -421,6 +421,19 @@ ul.rules {
   background: #fff;
   color: #a3b18a;
 }
+
+.my-button {
+  background-color: transparent;
+  border: 10px;
+  /* color: black; */
+  cursor: pointer;
+  font-size: 30px;
+  margin-left: 32px;
+  float: left;
+  line-height: 70px;
+  display: none;
+}
+
 
 /*
     =====================================
@@ -634,3 +647,174 @@ table h4 {
     Media Queries
     =====================================
 */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+  html,
+  body {
+    width: 100vw;
+  }
+
+  .logo {
+    float: none;
+    margin-bottom: 0;
+    font-size: 2.5em;
+  }
+
+  .hero h2 {
+    font-size: 1.75em;
+  }
+
+  .hero p {
+    font-size: 1.2em;
+  }
+
+  .primary-header {
+    width: 100%;
+  }
+
+  .row,
+  .row-alt {
+    display: flex;
+    width: 100%;
+  }
+
+  .primary-nav ul {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: space-around;
+    position: absolute;
+    top: 17%;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+
+  html,
+  body {
+    width: 100vw;
+  }
+
+  .logo {
+    float: none;
+    margin-bottom: 0;
+    font-size: 2.5em;
+  }
+
+  .primary-nav button {
+    display: block;
+    position: absolute;
+    right: 2%;
+    top: 2%;
+    color: white;
+    background: transparent;
+  }
+
+  .hero h2 {
+    font-size: 1.75em;
+  }
+
+  .hero p {
+    font-size: 1.2em;
+  }
+
+  .row,
+  .row-alt {
+    min-width: auto;
+    padding: 10% 0 10% 0;
+  }
+
+  .col-1-3,
+  .col-2-3,
+  .col-1-2 {
+    display: block;
+    width: 90vw;
+  }
+
+  .col-1-3 {
+    width: 90vw;
+  }
+
+  .lead h1 {
+    margin-bottom: 0;
+  }
+
+  .container {
+    width: 90vw;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .container-solo{
+    height: 100%;
+    width: 100%;
+  }
+
+  .container-solo img {
+    width: 100%;
+    height: auto;
+  }
+
+  .container,
+  .grid {
+    width: 90vw;
+  }
+
+  .tagline {
+    text-align: left;
+    height: 100%;
+    margin-top: 22px;
+    margin-bottom: 22px;
+  }
+
+  .primary-nav ul {
+    display: none;
+  }
+
+  .primary-nav ul.show {
+    display: flex;
+    position: absolute;
+    top: 10%;
+    right: 0;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: #344e41;
+  }
+
+  h1.hideLogo a {
+    color: transparent;
+  }
+
+  .primary-nav li:last-child{
+    margin-right: 10px;
+  }
+
+  .grid,
+  .col-1-3,
+  .col-2-3,
+  .col-1-2 {
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 15%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .primary-footer .nav ul {
+    display: none;
+  }
+}
