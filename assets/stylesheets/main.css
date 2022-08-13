@@ -135,8 +135,8 @@ table {
 
 body {
   background: #344e41;
-  color: #777e83;
-  font: 300 16px/22px "Cormorant", "Open Sans", "Helvetica Neue", Helvetica,
+  color: #5f6468;
+  font: 400 16px/22px "Cormorant", "Open Sans", "Helvetica Neue", Helvetica,
     Arial, sans-serif;
 }
 
@@ -144,6 +144,10 @@ h1,
 h2,
 h3,
 h4 {
+  color: #718055;
+}
+
+.hero h2 {
   color: #a3b18a;
 }
 
@@ -166,9 +170,9 @@ h4 {
 }
 
 h5 {
-  color: #777e83;
+  color: #5f6468;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   text-transform: uppercase;
 }
 
@@ -600,14 +604,14 @@ thead {
 
 thead th,
 thead td {
-  color: #a3b18a;
+  color: #718055;
   font-size: 24px;
 }
 
 tbody th {
-  color: #777e83;
+  color: #5f6468;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 500;
   padding-top: 22px;
   text-transform: uppercase;
 }
