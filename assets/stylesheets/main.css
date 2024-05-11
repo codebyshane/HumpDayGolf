@@ -509,6 +509,15 @@ ul.rules {
   width: 100%;
 }
 
+.standings-schedule {
+  height: 850px;
+  width: 100%;
+}
+
+.container-schedule {
+  height: 900px;
+}
+
 /*
     =====================================
     Register
@@ -765,6 +774,14 @@ table h4 {
   .container-solo img {
     width: 100%;
     height: auto;
+  }
+
+  .standings-schedule {
+    height: 400px;
+  }
+
+  .container-schedule {
+    height: 400px;
   }
 
   .container,
